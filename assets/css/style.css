@@ -21,9 +21,25 @@ section {
     padding-right: 1.5em;
     margin-bottom: .6em;
     background: #e3e9f2;
-    height: 34.25em;
+    height: 34.5em;
     width: 752px;
 }
+
+#second {
+    content:'';
+    display:block;
+    border-bottom: 1px solid #002eff;
+    margin-top: 7.25em;
+    padding-left: 1.5em;
+    padding-top: .01em;
+    padding-right: 1.5em;
+    margin-bottom: .6em;
+    background: #e3e9f2;
+    height: 37.75em;
+    width: 752px;
+}
+
+
 
 h2 {
   color: #002eff;
@@ -64,7 +80,26 @@ h3 {
     display:block;
     border-bottom: 1px solid #002eff;
     font-size: 16pt;
-    margin-top: -26.15em;
+    margin-top: -26.36em;
+    margin-left: 2em;
+    padding-left: 1.5em;
+    padding-top: 1em;
+    padding-right: 1.5em;
+    margin-bottom: .6em;
+    background: #e3e9f2;
+    height: 5.25em;
+    width: 185px;
+}
+
+
+h4 {  
+    float: right;
+    color: #002eff;
+    content:'';
+    display:block;
+    border-bottom: 1px solid #002eff;
+    font-size: 18pt;
+    margin-top: -25.67em;
     margin-left: 2em;
     padding-left: 1.5em;
     padding-top: 1em;
@@ -100,11 +135,13 @@ li {
 li a {
     display: block;
     color: #e3e9f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 23px;
+    padding-left: 23px;
     text-decoration: none;
     font-family: helvetica;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 li a:hover:not(.active) {
@@ -125,6 +162,38 @@ li:last-child {
     border-right: none;
 }
 
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #002eff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #002eff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: none;
+    padding: 0px;
+}
+
+
 footer {
     padding-bottom: .5em;
     color: #002eff;
@@ -144,3 +213,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
